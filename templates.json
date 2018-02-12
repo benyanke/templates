@@ -122,6 +122,26 @@
   },
   {
     "type": "container",
+    "title": "DynamoDB",
+    "description": "A local instance of AWS's NoSQL database for devs",
+    "categories": [
+      "database",
+      "backend-service"
+    ],
+    "platform": "linux",
+    "logo": "https://cdn.worldvectorlogo.com/logos/aws-dynamodb.svg",
+    "image": "dwmkerr/dynamodb",
+    "env": [
+    ],
+    "ports": [
+      "8000/tcp"
+    ],
+    "volumes": [
+      "/data"
+    ]
+  },
+  {
+    "type": "container",
     "title": "PostgreSQL",
     "description": "The most advanced open-source database",
     "categories": [
