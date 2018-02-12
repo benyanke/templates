@@ -123,6 +123,7 @@
   {
     "type": "container",
     "title": "DynamoDB",
+    "note": "Once set up, visit [containerAddress]/shell in your browser to continue",
     "description": "A local instance of AWS's NoSQL database for devs",
     "categories": [
       "database",
