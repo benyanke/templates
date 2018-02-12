@@ -132,6 +132,10 @@
     "logo": "https://cdn.worldvectorlogo.com/logos/aws-dynamodb.svg",
     "image": "dwmkerr/dynamodb",
     "env": [
+      {
+        "name": "dbPath",
+        "value": "/data"
+      }
     ],
     "ports": [
       "8000/tcp"
